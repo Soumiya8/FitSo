@@ -20,9 +20,9 @@ echo Committing files...
 git commit -m "Initial commit: Complete FitSo UI rebuild and gamification features"
 
 echo.
-echo Pushing to GitHub (main branch)...
+echo Forcing push to GitHub (main branch) to override conflicts...
 git branch -M main
-git push -u origin main
+git push -u origin main --force
 
 echo.
 echo =========================================
