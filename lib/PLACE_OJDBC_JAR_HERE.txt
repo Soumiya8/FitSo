@@ -1,0 +1,5 @@
+Place the Oracle JDBC driver JAR file (ojdbc11.jar or ojdbc8.jar) in this folder.
+
+Download from: https://www.oracle.com/database/technologies/appdev/jdbc-downloads.html
+
+After placing the JAR here, run compile.bat to build the project.
